@@ -34,6 +34,5 @@ public class problem_3 {
             rezuls = (double) firstNum / secondNum;
             System.out.printf("%d / %d = %.2f", firstNum, secondNum, rezuls);
         }
-
     }
 }
