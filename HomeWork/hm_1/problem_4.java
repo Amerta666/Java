@@ -20,7 +20,4 @@ public class problem_4 {
         System.out.println(z);
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> java/master
