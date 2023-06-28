@@ -342,3 +342,5 @@ healthchecksdb
 /Java.iml
 /out/
 !/.gitignore
+!/test.java
+!/Lectures/test.java
