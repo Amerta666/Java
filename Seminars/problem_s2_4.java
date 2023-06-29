@@ -13,7 +13,7 @@ public class problem_s2_4 {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 100; i++) {
-            sb.append(word + " ");
+            sb.append(word).append(" ");
         }
         System.out.print(sb);
         try (FileWriter fw = new FileWriter("Seminars/problem_s2_4.txt", false)) {
