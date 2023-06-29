@@ -7,17 +7,18 @@ public class problem_s2_5 {
         String pathProject = System.getProperty("user.dir");
         String pathDir = pathProject.concat("/Seminars");
         File dir = new File(pathDir);
-        StringBuilder sb = new StringBuilder();
+        String filename = "Seminars/problem_s2_5.txt";
         System.out.println(dir.getAbsolutePath());
         for (String fname : dir.list()) {
-            sb.append(fname).append("\n");
-            System.out.println(fname);
+            UserFileWriter(fname, filename);
         }
-        try (FileWriter fw = new FileWriter("Seminars/problem_s2_5.txt", false)) {
-            fw.write(String.valueOf(sb));
+    }
+    public static void UserFileWriter(String text, String filename) {
+        try (FileWriter sb = new FileWriter(filename, true)) {
+            sb.append(text).append("\n");
         }
-        catch (IOException ex) {
-            System.out.println(ex.toString());
+        catch (IOException e) {
+            System.out.println(e);
         }
     }
 }
