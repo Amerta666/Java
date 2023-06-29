@@ -16,5 +16,8 @@ public class problem_s2_5 {
         try (FileWriter fw = new FileWriter("Seminars/problem_s2_5.txt", false)) {
             fw.write(String.valueOf(sb));
         }
+        catch (IOException ex) {
+            System.out.println(ex.toString());
+        }
     }
 }
