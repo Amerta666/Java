@@ -19,5 +19,4 @@ public class problem_1 {
         StringBuilder resultSel = lib.LineText(list[0]);
         System.out.println(resultSel);
     }
-
 }

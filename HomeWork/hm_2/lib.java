@@ -37,18 +37,17 @@ public class lib {
     public static StringBuilder LineText(String text) {
         StringBuilder result = new StringBuilder("select * from students where ");
         String text3 = lib.parse(text);
-        String [] arrayData = text3.split(", ");
-        for (int i =0; i < arrayData.length; i++) {
-            String[] arrData = arrayData[i].split(":");
-            if(!arrData[1].equals("null")) {
+        String [] arrText = text3.split(", ");
+        for (int i =0; i < arrText.length; i++) {
+            String[] arrT = arrText[i].split(":");
+            if(!arrT[1].equals("null")) {
                 if (i != 0) {
-                    result.append(", ").append(arrData[0]).append(" = ").append("\"").append(arrData[1]).append("\"");
+                    result.append(", ").append(arrT[0]).append(" = ").append("\"").append(arrT[1]).append("\"");
                 } else {
-                    result.append(arrData[0]).append(" = ").append("\"").append(arrData[1]).append("\"");
+                    result.append(arrT[0]).append(" = ").append("\"").append(arrT[1]).append("\"");
                 }
             }
         }
         return result;
     }
-
 }
