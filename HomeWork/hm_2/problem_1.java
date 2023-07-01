@@ -16,7 +16,8 @@ public class problem_1 {
     public static void main(String[] args) throws Exception {
         String [] list = lib.ReadLine("HomeWork/hm_2/problem_1.txt");
         System.out.println(list[0]);
-        StringBuilder resultSel = lib.LineText(list[0]);
+        StringBuilder tempSelect = lib.LineText(list[0]);
+        String resultSel = tempSelect.toString().replace(", ", " and ");
         System.out.println(resultSel);
     }
 }
