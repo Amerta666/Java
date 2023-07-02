@@ -9,6 +9,7 @@ public class lib {
         return getStrings(pathway);
     }
 
+    // Чтение из файла
     public static String[] getStrings(String pathway) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(pathway));
         String str;
@@ -29,11 +30,14 @@ public class lib {
         return listData;
     }
 
+    //Парсинг строки
     public static String parse (String text) {
         String text1 = text.replace("{", "");
         String text2 = text1.replace("}", "");
         return text2.replace("\"", "");
     }
+
+    // Создание SQL запроса
     public static StringBuilder LineText(String text) {
         StringBuilder result = new StringBuilder("select * from students where ");
         String text3 = lib.parse(text);
@@ -49,5 +53,20 @@ public class lib {
             }
         }
         return result;
+    }
+
+
+    // Сортировка массива пузырьком
+    public static int[] SortArray (int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+        return arr;
     }
 }

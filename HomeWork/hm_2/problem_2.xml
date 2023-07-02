@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-02T14:54:26.686496200Z</date>
+  <millis>1688309666686</millis>
+  <nanos>496200</nanos>
+  <sequence>0</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Исходный массив - [1, 25, 10, 50, 7, 14, 5, 56, 71, 4]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.737495Z</date>
+  <millis>1688309666737</millis>
+  <nanos>495000</nanos>
+  <sequence>1</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 1-й итерации: - [1, 10, 25, 7, 14, 5, 50, 56, 4, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.738495Z</date>
+  <millis>1688309666738</millis>
+  <nanos>495000</nanos>
+  <sequence>2</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 2-й итерации: - [1, 10, 7, 14, 5, 25, 50, 4, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.738495Z</date>
+  <millis>1688309666738</millis>
+  <nanos>495000</nanos>
+  <sequence>3</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 3-й итерации: - [1, 7, 10, 5, 14, 25, 4, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.739495400Z</date>
+  <millis>1688309666739</millis>
+  <nanos>495400</nanos>
+  <sequence>4</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 4-й итерации: - [1, 7, 5, 10, 14, 4, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.739495400Z</date>
+  <millis>1688309666739</millis>
+  <nanos>495400</nanos>
+  <sequence>5</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 5-й итерации: - [1, 5, 7, 10, 4, 14, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.740494700Z</date>
+  <millis>1688309666740</millis>
+  <nanos>494700</nanos>
+  <sequence>6</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 6-й итерации: - [1, 5, 7, 4, 10, 14, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.740494700Z</date>
+  <millis>1688309666740</millis>
+  <nanos>494700</nanos>
+  <sequence>7</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 7-й итерации: - [1, 5, 4, 7, 10, 14, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.741496200Z</date>
+  <millis>1688309666741</millis>
+  <nanos>496200</nanos>
+  <sequence>8</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 8-й итерации: - [1, 4, 5, 7, 10, 14, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.741496200Z</date>
+  <millis>1688309666741</millis>
+  <nanos>496200</nanos>
+  <sequence>9</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Промежуточный результат на 9-й итерации: - [1, 4, 5, 7, 10, 14, 25, 50, 56, 71]</message>
+</record>
+<record>
+  <date>2023-07-02T14:54:26.741496200Z</date>
+  <millis>1688309666741</millis>
+  <nanos>496200</nanos>
+  <sequence>10</sequence>
+  <logger>hm_2.problem_2</logger>
+  <level>INFO</level>
+  <class>hm_2.problem_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Отсортированный массив - [1, 4, 5, 7, 10, 14, 25, 50, 56, 71]</message>
+</record>
+</log>
