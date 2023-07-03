@@ -14,11 +14,11 @@ public class lib {
         BufferedReader br = new BufferedReader(new FileReader(pathway));
         String str;
         int size = 0;
-        while (br.readLine() != null) {
-            size += 1;
+        while ((str = br.readLine()) != null) {
+            size +=1;
         }
         br.close();
-        String[] listData = new String[size];
+        String [] listData = new String [size];
 
         int i = 0;
         BufferedReader br1 = new BufferedReader(new FileReader(pathway));
