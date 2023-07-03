@@ -28,7 +28,7 @@ public class problem_s3_2 {
             planet = item;
         }
         //System.out.println(planet + " - " + count);
-        ArrayList<String> PlanetListUnic = new ArrayList<String>();
+        ArrayList<String> PlanetListUnic = new ArrayList<>();
         planet = "";
         for (String item: PlanetList) {
             if (!Objects.equals(item, planet)) {
