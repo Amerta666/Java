@@ -29,7 +29,7 @@ public class lib {
     }
 
     public static Integer dequeue (LinkedList<Integer>List) {
-    return List.pop();
+        return List.pop();
     }
 
     public static Integer first (LinkedList<Integer>List) {
