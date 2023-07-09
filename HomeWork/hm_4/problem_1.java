@@ -30,15 +30,6 @@ public class problem_1 {
         System.out.println(lib.first(Llist));
         System.out.print("first() - ");
         System.out.println(Llist);
-
-
-
-
-
-
-
-
-
     }
 
 }
