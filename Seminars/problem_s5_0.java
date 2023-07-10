@@ -25,8 +25,5 @@ public class problem_s5_0 {
                 System.out.println(item);
             }
         }
-
-
-
     }
 }
