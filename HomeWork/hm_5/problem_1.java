@@ -15,9 +15,9 @@ public class problem_1 {
         PhoneBook.put("Сидоров", new int[]{456486});
         PhoneBook.put("Петрова", new int[]{456486});
         for (var item : PhoneBook.entrySet()) {
-            String phones = "";
+            StringBuilder phones = new StringBuilder();
             for (int i : item.getValue()) {
-                phones = phones + i + " ";
+                phones.append(i).append(" ");
             }
             System.out.printf("%s: %s \n", item.getKey(), phones);
         }
