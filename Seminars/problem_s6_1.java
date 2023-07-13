@@ -14,7 +14,7 @@ public class problem_s6_1 {
     public static void main(String[] args) {
         int[] arrRandom = new int[1000];
         for (int i = 0; i < arrRandom.length; i++) {
-            int randomNum = ThreadLocalRandom.current().nextInt(0, 60);
+            int randomNum = ThreadLocalRandom.current().nextInt(0, 25);
             arrRandom[i] = randomNum;
         }
         System.out.print("Начальный массив - ");
@@ -30,6 +30,6 @@ public class problem_s6_1 {
         for (int item: arr) {
             hashSet.add(item);
         }
-        return (float) (hashSet.size() * 100 / (float)arr.length);
+        return (hashSet.size() * 100 / (float)arr.length);
     }
 }
